@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
-  m_Name: Searching...
+  m_Name: Detour...
   m_EditorClassIdentifier: 
-  storyText: 'You begin to make your way through the jungle. Along the way you find
-    small pieces of metal and some fruits hanging off the trees along the way that
-    should hold your hunger at bay for a few days as you walk towards the billowing
-    smoke.
+  storyText: 'You decided to take the detour route instead entering the dark cave.
+    As the days go by you still have not been able to find a food nor water available
+    to you and you resources and are close to being used up.
 
     
 
     1. Continue...'
   nextStates:
-  - {fileID: 11400000, guid: acc6bde93880c0c4a81c567c14bcc408, type: 2}
+  - {fileID: 11400000, guid: 284e8dedbe3910d4c867c01a3939a646, type: 2}

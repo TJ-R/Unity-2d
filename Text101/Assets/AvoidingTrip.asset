@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
-  m_Name: Searching...
+  m_Name: AvoidingTrip
   m_EditorClassIdentifier: 
-  storyText: 'You begin to make your way through the jungle. Along the way you find
-    small pieces of metal and some fruits hanging off the trees along the way that
-    should hold your hunger at bay for a few days as you walk towards the billowing
-    smoke.
+  storyText: 'You decided to continue at your current pace as you continue walking
+    you feel a slight tug on your foot and stop to look. A trip wire it seems your
+    caution has rewarded you.
 
-    
 
     1. Continue...'
   nextStates:
-  - {fileID: 11400000, guid: acc6bde93880c0c4a81c567c14bcc408, type: 2}
+  - {fileID: 11400000, guid: 212590148ad5d1d41a5d1655f31f51e5, type: 2}

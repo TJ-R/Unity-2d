@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
-  m_Name: Waiting..
+  m_Name: Waiting...
   m_EditorClassIdentifier: 
   storyText: "It has been has been 3 days since you have awoken and your throat is
     burning from thirst, stomach roaring from hunger and start to wonder if help

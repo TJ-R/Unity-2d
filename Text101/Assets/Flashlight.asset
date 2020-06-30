@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
-  m_Name: Searching...
+  m_Name: Flashlight
   m_EditorClassIdentifier: 
-  storyText: 'You begin to make your way through the jungle. Along the way you find
-    small pieces of metal and some fruits hanging off the trees along the way that
-    should hold your hunger at bay for a few days as you walk towards the billowing
-    smoke.
+  storyText: 'You are enveloped by the darkness as you enter the cave. While fumbling
+    around you trip over an object, "a flashlight!" you exclaim as you pick it up.
+    You turn it on and continue to cautiously progress through the cave.
 
     
 
-    1. Continue...'
+    1.
+    Continue....'
   nextStates:
-  - {fileID: 11400000, guid: acc6bde93880c0c4a81c567c14bcc408, type: 2}
+  - {fileID: 11400000, guid: 68c7da83d6c061747ba8cdbbdabcfb1a, type: 2}

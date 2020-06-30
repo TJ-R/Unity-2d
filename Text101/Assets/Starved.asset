@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
-  m_Name: GameOver - A3
+  m_Name: Starved
   m_EditorClassIdentifier: 
   storyText: 'Help never came and with no food and no water you starved to death
     without any clue of how you ended up in this place.
