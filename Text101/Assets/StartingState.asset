@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
-  storyText: "Aghhhh.... Your eyes flicker as a bright light shines down into them.
-    Squinting you look around and wonder, where am I?\r\nThe unfamilar envioronment
+  storyText: "Ughhhh.... Your eyes flicker as a bright light shines down into them.
+    Squinting you look around and wonder, where am I?\r\n\r\nThe unfamiliar environment
     around you contains many colorful plants and trees that you have never seen before.
-    You get up\r to study your surroundings and have a decision to make.\r\n\r\nWhat
-    will you do?\r\n1. Leave the area to search for clues on how you got here.\r\n2.
-    Stay where you are and wait."
+    You get up to study your surroundings and seem to see pillar of smoke rising
+    in the distance. You have a decision to make.\r\n\r\nWhat will you do?\r\n\r\n1.
+    Leave the area to search for clues on how you got here.\r\n\r2. Stay where you
+    are and wait for help."
   nextStates:
   - {fileID: 11400000, guid: cf783595d950aa64c9f0c4e6ddfd82ac, type: 2}
   - {fileID: 11400000, guid: c21ebd0214dd3df498405a891c543fb6, type: 2}

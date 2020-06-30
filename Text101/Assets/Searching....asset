@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
+  m_Name: Searching..
+  m_EditorClassIdentifier: 
+  storyText: 'You begin to make your way through the jungle. Along the way you find
+    small pieces of metal and some fruits hanging off the trees along the way that
+    should hold your hunger at bay for a few days as you walk towards the billowing
+    smoke.
+
+    
+
+    1. Continue...'
+  nextStates:
+  - {fileID: 11400000, guid: 1a41ee0870eab2641ba16c7ded596fba, type: 2}

@@ -609,7 +609,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\t\t\t\tPlaceHolder Text"
+  m_Text: "\t\t\t\tJungle Escape"
 --- !u!222 &1425446578
 CanvasRenderer:
   m_ObjectHideFlags: 0
