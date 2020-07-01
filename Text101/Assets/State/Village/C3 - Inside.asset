@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
+  m_Name: C3 - Inside
+  m_EditorClassIdentifier: 
+  storyText: 'You made into the village and quickly dive into some bushes. Your goal
+    is now to find the storehouse holding supplies so you can resume you journey.
+    Sneaking through the village bush to bush you discover people who look similar
+    to you hung up on trees and one being eaten by the villagers. You thank yourself
+    for not attempting to communicate with them.
+
+    
+
+    1. Continue...'
+  nextStates:
+  - {fileID: 11400000, guid: b46604a12e48e87418077e0d4ef922ab, type: 2}

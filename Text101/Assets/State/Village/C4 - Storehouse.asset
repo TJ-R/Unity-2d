@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
+  m_Name: C4 - Storehouse
+  m_EditorClassIdentifier: 
+  storyText: 'Soon you find the storehouse the inhabitants of the village are bringing
+    food and water from it to their disgusting feast and left the door open in a
+    rush to go to the feast. It will soon be nightfall and the door has a lock. Others
+    might comeback and lock the door make it impossible for you to enter without
+    a commotion. Should you rush in now to gather supplies quickly or wait till nightfall?
+
+    
+
+    1.
+    Wait till nightfall...
+
+    2. Rush in for supplies...'
+  nextStates:
+  - {fileID: 11400000, guid: afebd0d37cf482f4c85a0c5ea48fea69, type: 2}
+  - {fileID: 11400000, guid: 65379be1ebc6d3c40b69b36f2b77f313, type: 2}

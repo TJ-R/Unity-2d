@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
+  m_Name: C2 - Captured
+  m_EditorClassIdentifier: 
+  storyText: 'You walk up to the guards and attempt to communicate with them but
+    as soon as you approach they react violently hitting you until you loose consciousness.
+    When you awake you discover you are strung upside down on a tree along side many
+    others that look like you and below are villagers roasting eating something that
+    may have once been human...
+
+    
+
+    1. Continue...'
+  nextStates:
+  - {fileID: 11400000, guid: 1daeb679fe3a9e547aee489cccbd515d, type: 2}

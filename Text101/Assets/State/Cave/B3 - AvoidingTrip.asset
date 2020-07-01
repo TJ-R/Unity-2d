@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
+  m_Name: B3 - AvoidingTrip
+  m_EditorClassIdentifier: 
+  storyText: 'You decided to continue at your current pace. As you walk through the
+    cave you feel a slight tug on your foot and stop to look. A trip wire it seems
+    your caution has rewarded you.
+
+
+    1. Continue...'
+  nextStates:
+  - {fileID: 11400000, guid: 212590148ad5d1d41a5d1655f31f51e5, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
+  m_Name: B2 - Trip Wire
+  m_EditorClassIdentifier: 
+  storyText: 'The cave seems to go on longer than you originally thought if you keep
+    going at your current pace it might take you a day or two to leave and you are
+    running low on supplies.
+
+
+    1. Speed up...
+
+    2. Keep current pace...'
+  nextStates:
+  - {fileID: 11400000, guid: d9c19e4fbb25a0a40a414ac287c73f6a, type: 2}
+  - {fileID: 11400000, guid: 561925c5b2b2a7148bf6bdd1ed38f531, type: 2}

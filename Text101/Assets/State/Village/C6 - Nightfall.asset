@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d86749bd9673974c8fe789a9645adfd, type: 3}
+  m_Name: C6 - Nightfall
+  m_EditorClassIdentifier: 
+  storyText: 'You decided to wait until nightfall during the wait numerous groups
+    have decided to go back and forth getting supplies for the feast one being shortly
+    after you made your decision to wait but none shut the door. As the moon slowly
+    rises the villagers soon feel asleep satisfied with their feast. Thus you were
+    able to quietly steal enough supplies last you the rest of you journey and exit
+    the village the same way you came in.
+
+    
+
+    1. Continue...'
+  nextStates:
+  - {fileID: 11400000, guid: 00c62a99dedc285499b610d6678614f8, type: 2}
