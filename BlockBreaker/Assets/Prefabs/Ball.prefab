@@ -139,6 +139,7 @@ MonoBehaviour:
   launchVelocityY: 15
   ballSounds:
   - {fileID: 8300000, guid: dffd260ba24371847a8f6ed2932c8a20, type: 3}
+  randomFactor: 1
 --- !u!82 &203384647
 AudioSource:
   m_ObjectHideFlags: 0

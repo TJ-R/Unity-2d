@@ -10,12 +10,12 @@ public class Level : MonoBehaviour
     // Cached Reference
     SceneLoader sceneLoader;
 
-    public void CountBreakbleBlocks()
+    public void CountBlocks()
     {
         breakableBlocks++;
     }
 
-    public void BlockDestroyed()
+    public void DecreaseBlocksRemaining()
     {
         breakableBlocks--;
         if (breakableBlocks <= 0)
