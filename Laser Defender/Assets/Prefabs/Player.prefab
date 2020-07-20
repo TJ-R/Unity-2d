@@ -95,16 +95,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5710e60b81f8b694e9803749829491f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 11
   padding: 0.6
   health: 200
-  deathVFX: {fileID: 4409040193680693432, guid: c108a0a773374fe4896f9554624e1159,
-    type: 3}
-  durationOfDeath: 0.1
   laserPrefab: {fileID: 406961588469561519, guid: f8a2d3dc4e49ed14296cc90c70709e85,
     type: 3}
   projectileSpeed: 15
-  projectileFiringPeriod: 0.1
+  projectileFiringPeriod: 0.09
+  deathVFX: {fileID: 4409040193680693432, guid: c108a0a773374fe4896f9554624e1159,
+    type: 3}
+  durationOfDeath: 0.1
+  deathSFX: {fileID: 8300000, guid: 7d92bc0e9d98c994c8e20c9b66fdc9e3, type: 3}
+  fireSFX: {fileID: 8300000, guid: 81c3f3b2ac9fc4d41b8c0e24129a3c18, type: 3}
+  deathVolume: 0.3
+  fireVolume: 0.1
 --- !u!60 &1417747789911984991
 PolygonCollider2D:
   m_ObjectHideFlags: 0

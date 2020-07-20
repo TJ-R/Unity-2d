@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Xml.Schema;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -12,13 +13,19 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 0.5f;
     [SerializeField] int health = 200;
-    [SerializeField] GameObject deathVFX;
-    [SerializeField] float durationOfDeath = .1f;
 
     [Header("Projectile")]
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed = 15f;
     [SerializeField] float projectileFiringPeriod = 0.1f;
+
+    [Header("FX")]
+    [SerializeField] GameObject deathVFX;
+    [SerializeField] float durationOfDeath = .1f;
+    [SerializeField] AudioClip deathSFX;
+    [SerializeField] AudioClip fireSFX;
+    [Range(0, 1)] [SerializeField] float deathVolume = .5f;
+    [Range(0, 1)] [SerializeField] float fireVolume = .5f;
 
     Coroutine firingCoroutine;
 
@@ -62,6 +69,9 @@ public class Player : MonoBehaviour
                         transform.position,
                         Quaternion.identity) as GameObject;
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+
+            AudioSource.PlayClipAtPoint(fireSFX, Camera.main.transform.position, fireVolume);
+
             yield return new WaitForSeconds(projectileFiringPeriod);
         }
     }
@@ -107,10 +117,15 @@ public class Player : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+
         if (!deathVFX) { return; }
         GameObject explosion = Instantiate(deathVFX,
             transform.position,
             Quaternion.identity) as GameObject;
         Destroy(explosion, durationOfDeath);
+        
+        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathVolume);
+
+        FindObjectOfType<Level>().LoadGameOver();
     }
 }
