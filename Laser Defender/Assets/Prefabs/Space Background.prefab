@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2644926892309953134}
   - component: {fileID: 2644926892309953041}
+  - component: {fileID: -5398605150677270634}
   m_Layer: 0
-  m_Name: Space-Background-Tiled
+  m_Name: Space Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,6 +79,18 @@ SpriteRenderer:
   m_Size: {x: 10.8, y: 26.908028}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-5398605150677270634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644926892309953040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6417680fa5dcdee4a9187f62a35456f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
