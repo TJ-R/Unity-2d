@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JetBrains.Annotations;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class Enemy : MonoBehaviour
     [Header("Enemy")]
     [SerializeField] float health = 100f;
     [SerializeField] float shotCounter;
+    [SerializeField] int scoreValue = 150;
 
     [Header("Projectile")]
     [SerializeField] float minTimeBetweenShots = 0.2f;
@@ -78,6 +80,7 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+        FindObjectOfType<GameSession>().AddToScore(scoreValue);
 
         if (!deathVFX) { return; }
         GameObject explosion = Instantiate(deathVFX, 
