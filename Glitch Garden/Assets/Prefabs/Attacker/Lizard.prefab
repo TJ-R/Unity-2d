@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617798215692803091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2248571594478076473}
@@ -93,8 +93,9 @@ GameObject:
   - component: {fileID: 2248571594478076473}
   - component: {fileID: 2248571594478076455}
   - component: {fileID: 2248571594478076452}
-  - component: {fileID: 1147408572241869530}
   - component: {fileID: -3771597647285400939}
+  - component: {fileID: -6382786968836891528}
+  - component: {fileID: 1147408572241869530}
   - component: {fileID: 1642893575}
   m_Layer: 0
   m_Name: Lizard
@@ -150,6 +151,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSpeed: 1
+--- !u!114 &-3771597647285400939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2248571594478076472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13809816db2fb1848b2ea7636fccd59a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+  durationOfDeath: 1
+--- !u!114 &-6382786968836891528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2248571594478076472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db35bab8f8f65448848d7ff2a5cc02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &1147408572241869530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -176,21 +204,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6334455, y: 0.6417892}
   m_EdgeRadius: 0
---- !u!114 &-3771597647285400939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2248571594478076472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13809816db2fb1848b2ea7636fccd59a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
-  durationOfDeath: 1
 --- !u!50 &1642893575
 Rigidbody2D:
   serializedVersion: 4

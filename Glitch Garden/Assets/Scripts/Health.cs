@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     [SerializeField] GameObject deathVFX;
     [SerializeField] float durationOfDeath;
 
+    public int GetHealth() { return health; }
     public void DealDamage(int damage)
     {
         health -= damage;

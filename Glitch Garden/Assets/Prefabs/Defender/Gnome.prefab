@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 1761598453840986634}
   - component: {fileID: 1761598453840986635}
   - component: {fileID: 1761598453840986633}
+  - component: {fileID: -9139881389036349012}
   - component: {fileID: 1761598453840986636}
   - component: {fileID: 1761598453840986632}
   m_Layer: 0
@@ -160,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312da1f331bf5bf499ce5ac5865cc218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 100
+  starCost: 200
 --- !u!114 &1761598453840986633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +177,21 @@ MonoBehaviour:
   projectile: {fileID: 3644997680929469344, guid: 7dc06940fa4cd8648832f61d14809ed7,
     type: 3}
   gun: {fileID: 652023775}
+--- !u!114 &-9139881389036349012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761598453840986637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13809816db2fb1848b2ea7636fccd59a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 0}
+  durationOfDeath: 0
 --- !u!95 &1761598453840986636
 Animator:
   serializedVersion: 3
