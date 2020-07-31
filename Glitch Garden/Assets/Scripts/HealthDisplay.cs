@@ -5,14 +5,15 @@ using UnityEngine.UI;
 
 public class HealthDisplay : MonoBehaviour
 {
-    [SerializeField] int health = 5;
-
+    [SerializeField] float baseHealth = 5;
+    float health;
     Text healthText;
 
     // Start is called before the first frame update
     void Start()
     {
         healthText = GetComponent<Text>();
+        health = baseHealth - PlayerPrefsController.GetDifficulty();
         UpdateDisplay();
     }
 
@@ -30,13 +31,7 @@ public class HealthDisplay : MonoBehaviour
         }
         else
         {
-            StartCoroutine(WaitAndLoadGameOver());
+            FindObjectOfType<LevelController>().HandleLoseCondition();
         }
-    }
-
-    IEnumerator WaitAndLoadGameOver()
-    {
-        yield return new WaitForSeconds(2);
-        FindObjectOfType<LevelLoader>().LoadGameOver();
     }
 }

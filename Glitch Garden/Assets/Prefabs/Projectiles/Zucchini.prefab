@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2973152031763654332}
   - component: {fileID: 896297701139190601}
   - component: {fileID: 4447661295425182863}
+  - component: {fileID: 155325611620069123}
   m_Layer: 0
   m_Name: Zucchini
   m_TagString: Untagged
@@ -122,5 +123,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  rotationSpeed: 10
   damage: 100
+--- !u!50 &155325611620069123
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3734072463821426279}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
